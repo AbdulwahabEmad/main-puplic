@@ -1,0 +1,100 @@
+
+.grid-item{
+    padding: 25px;
+    margin: 1px;
+    background-color: rgb(247, 110, 195);
+    
+} 
+
+.grid-container{
+    display: grid;
+    grid-auto-columns: minmax(20px , auto);
+    grid-auto-rows: minmax(20px, auto);
+    grid-gap: 1px;
+    position: relative;
+    
+    
+}
+
+.grid-item-1{ 
+    background-color: rgb(173, 86, 135);
+    padding: 25px;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    
+}
+
+
+.grid-item-2{
+    padding: 120px;
+    grid-row-start: 2 ;
+    grid-row-end: 5;
+    position: relative;  
+}
+
+
+.grid-item-3{
+    padding: 140px;
+    grid-column-start: 2;
+    grid-column-end: 8 ;
+    position: relative; 
+
+}
+
+
+.grid-item-4{
+    background-color: rgb(173, 86, 135);
+    padding: 120px;
+    grid-column-start: 2;
+    grid-column-end: 4 ;
+    position: relative; 
+
+}
+
+
+.grid-item-5{
+    padding: 120px;
+    grid-column-start: 4;
+    grid-column-end: 6 ;
+    position: relative; 
+}
+
+.grid-item-6{
+    background-color: rgb(173, 86, 135);
+    padding: 120px;
+    grid-column-start: 6;
+    grid-column-end: 8 ;
+    position: relative; 
+}
+
+.grid-item-7{
+    background-color: rgb(173, 86, 135);
+    padding: 60px;
+    grid-column-start: 2;
+    grid-column-end: 8 ;
+    position: relative; 
+}
+
+.grid-item h5{
+
+    position: absolute;
+    top: 0px;
+    color: aliceblue;
+    left: 49%;    
+}
+
+.grid-item-5 h5{
+    left: 43%;
+}
+.grid-item-1 h5{
+    left: 50%;
+}
+
+.grid-item-2 h5{
+    left: 43%;
+}
+@media (max-width: 991.98px)
+{.grid-item{
+min-height: 30vh;
+}    
+}
